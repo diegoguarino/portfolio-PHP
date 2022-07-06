@@ -28,10 +28,13 @@ h1{
     padding: 16px;
 }
 .proyecto p{
-        height: 130px;
+    height: 130px;
 }
 p{
     color: #6a6a6a;
+    font-size: 16px;
+    font-weight: 400;
+
 }
 #proyectos p{
     font-size: 14px;
@@ -142,19 +145,14 @@ input, textarea, .btn{
     color: white;
     font-size: 17px;
     border: 1px white solid;
-    border-radius: 15px;
+    border-radius: 50px;
     font-weight: 600;
-}
-#inicio p{
-        color: #E20000;
-        font-size: 16px;
-        border: 1px #E20000 solid;
 }
 #inicio img{
     height: 400px;
 }
 #inicio img:hover{
-    height: 410;
+    height: 410px;
 }
 .cohete{
     height: 410px;
@@ -170,7 +168,6 @@ input, textarea, .btn{
     height: 300px;
     display: block;
     margin-left: 200px;
-    
     }
 #stack-tecnologico {
     background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
@@ -188,10 +185,83 @@ h2{
   filter:grayscale(0%);
 }
 
-
-
-
-
+#stack-tecnologico img{
+    width: 60px;
+}
+#stack-tecnologico h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: #282828;
+       
+}
+.lenguaje{
+    height: 182px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 3px;
+}
+#experiencia h2{
+    color: #370A6D;
+    font-size: 24px;
+    font-weight: 400;
+}
+#idiomas h2{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 500;
+}
+h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencia h4{
+    color: #370A6D;
+    font-size: 17px;
+    font-weight: 500;
+}
+h5{
+    color: #6A6A6A;
+    font-size: 14px;
+    font-weight: 500;
+}
+#formacion h2, #cursos h2{
+    color:#E20000;
+    font-size: 24px;
+    font-weight: 400;
+}
+#formacion h4, #cursos h4{
+    color: #E20000;
+    font-size: 17px;
+    font-weight: 500;
+}
+#idiomas ul{
+    color: #282828;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: none;   
+}
+#idiomas i{
+    background-color: #370a6d;
+    border-radius: 15px;
+    height: 182px;
+}
+#idiomas .fa-solid {
+    color: white; 
+    font-size: 80px;
+    width: 100%;
+}
+#idiomas{
+    background-color: #EEEEEE;
+}
+#idiomas .shadow{
+    border-radius: 15px;
+    background-color: white;    
+}
+#idiomas .fa-solid{
+    text-align: center;
+}
 
 
 @media (max-width: 750px) {
@@ -205,9 +275,39 @@ h2{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    #inicio{
+        background-image: url("../imagenes/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .fa-whatsapp{
+        color: white !important;
+    }
     #inicio p {
         color: #E20000;
         font-size: 16px;
         border: 1px #E20000 solid;
+        border-radius: 50px;
     }
+    #inicio footer, #inicio footer a, #contacto footer, #contacto footer a{
+        color: #E20000;
+        font-weight: 100;
+    }
+    #inicio footer .fa-github, #contacto footer .fa-github{
+        font-size: 30px;
+        color: #E20000;
+    }
+    #inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in{
+        color: white;
+        background-color: #E20000;
+        font-size: 20px;
+        border: 0px;
+        height: 32px;
+        width: 32px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        border-radius: 80px;
+        margin: 0 8px;
+    }
+         
 }
