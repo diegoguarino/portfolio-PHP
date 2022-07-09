@@ -167,20 +167,21 @@ input, textarea, .btn{
     border-radius: 600px;
     height: 300px;
     display: block;
-    margin-left: 200px;
     }
-#stack-tecnologico {
+#stack-tecnologico{
     background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
 }
 h2{
     color: white;
     font-size: 24px;
 }
-.gris {
+.gris{
+    max-width: 100%;
+    height: auto;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
+    filter: grayscale(100%);
 }
-.gris:hover {
+.gris:hover{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter:grayscale(0%);
 }
@@ -264,6 +265,7 @@ h5{
 }
 
 
+
 @media (max-width: 750px) {
     #contacto {
         background-image: url("../imagenes/fondo-proyectos.png");
@@ -309,5 +311,9 @@ h5{
         border-radius: 80px;
         margin: 0 8px;
     }
-         
+    .gris{
+        display: none;
+    }
+    
 }
+   
