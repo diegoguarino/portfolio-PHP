@@ -277,9 +277,7 @@ h5{
         background-repeat: no-repeat;
     }
     #inicio{
-        background-image: url("../imagenes/fondo-proyectos.png");
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-image: none
     }
     .fa-whatsapp{
         color: white !important;
