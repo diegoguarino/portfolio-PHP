@@ -1,3 +1,4 @@
+<?php $pg = "inicio" ?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -16,41 +17,14 @@
 <body id="inicio" class="d-flex flex-column h-100">
 
     <header>
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 active" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a class="btn btn-rojo" href="">Descargar mi CV <i class="fa-solid fa-download"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <?php include_once ("menu.php") ?>
     </header>
 
     <main>
         <div class="container">
             <div class="row">
                 <div class="col-12 mx-auto text-center cohete">
-                    <a href="proyectos.html"><img src="imagenes/cohete.svg" alt="Cohete"></a>
+                    <a href="proyectos.php"><img src="imagenes/cohete.svg" alt="Cohete"></a>
                 </div>
                 <div class="col-sm-6 col-12 text-center offset-sm-3">
                     <div class="mt-5 pt-3">
@@ -58,7 +32,7 @@
                     </div>
                 </div>
                 <div class="col-12 text-center py-4">
-                    <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
+                    <a href="proyectos.php" class="btn shadow">Conoce mis proyectos</a>
                 </div>
             </div>
         </div>
