@@ -194,8 +194,8 @@
                         <div class="row">
                             <div class="col-sm-6 col-12">
                                 <div class="row">
-                                    <div class="col-2">
-                                        <img src="imagenes/sin-logo.png" alt="sin-logo" class="gris pt-4">
+                                    <div class="col-2 m-auto">
+                                        <img src="imagenes/sin-logo.png" alt="sin-logo" class="gris">
                                     </div>
                                     <div class="col-12 col-sm-10 p-3">
                                         <h3>Bachillerato de Científica</h3>
@@ -207,8 +207,8 @@
                             </div>
                             <div class="col-sm-6 col-12">
                                 <div class="row">
-                                    <div class="col-2">
-                                        <img src="imagenes/sin-logo.png" alt="sin-logo" class="gris pt-4">
+                                    <div class="col-2 m-auto">
+                                        <img src="imagenes/sin-logo.png" alt="sin-logo" class="gris">
                                     </div>
                                     <div class="col-12 col-sm-10 p-3">
                                         <h3>Administración de Empresas</h3>
@@ -220,8 +220,8 @@
                             </div>
                             <div class="col-sm-6 col-12">
                                 <div class="row">
-                                    <div class="col-2">
-                                        <img src="imagenes/sin-logo.png" alt="sin-logo" class="gris pt-4">
+                                    <div class="col-2 m-auto">
+                                        <img src="imagenes/sin-logo.png" alt="sin-logo" class="gris">
                                     </div>
                                     <div class="col-12 col-sm-10 p-3">
                                         <h3>Auxiliar Contable</h3>
@@ -248,11 +248,11 @@
                     <div class="row shadow  pb-2">
                         <div class="col-sm-6 col-12">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris pt-3">
+                                <div class="col-2 m-auto">
+                                    <img src="imagenes/logo-depcsuite.svg" alt="DePCSuite" class="gris">
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
-                                    <h3>Dactilografía</h3>
+                                    <h3>Programación Web Full Stack</h3>
                                     <h4>Instituto Mundo Nuevo</h4>
                                     <h5>Expedición: dic 2000</h5>
                                 </div>
@@ -260,8 +260,8 @@
                         </div>
                         <div class="col-sm-6 col-12">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris pt-3">
+                                <div class="col-2 m-auto">
+                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris">
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
                                     <h3>Digitación</h3>
@@ -272,8 +272,8 @@
                         </div>
                         <div class="col-sm-6 col-12">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris pt-3">
+                                <div class="col-2 m-auto">
+                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris">
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
                                     <h3>Operador de Windows Office</h3>
@@ -284,8 +284,8 @@
                         </div>
                         <div class="col-sm-6 col-12">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris pt-3">
+                                <div class="col-2 m-auto">
+                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris">
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
                                     <h3>Gestión en Recursos Humanos</h3>
@@ -296,8 +296,8 @@
                         </div>
                         <div class="col-sm-6 col-12">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris pt-3">
+                                <div class="col-2 m-auto">
+                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris">
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
                                     <h3>Administración y Gestión Empresarial</h3>
@@ -308,8 +308,8 @@
                         </div>
                         <div class="col-sm-6 col-12">
                             <div class="row">
-                                <div class="col-2">
-                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris pt-3">
+                                <div class="col-2 m-auto">
+                                    <img src="imagenes/mundo_nuevo.png" alt="mundo nuevo" class="gris">
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
                                     <h3>Gestor Contable</h3>

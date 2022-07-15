@@ -12,7 +12,11 @@ body{
 }
 #inicio{
     background-image: url("../imagenes/fondo-contacto.png");
-    background-size: cover;
+    background-size: cover;    
+}
+#confirmacion_envio{
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: cover !important;
 }
 h1{
     color: #E20000;
@@ -83,15 +87,15 @@ p{
     color: #E20000;
     text-decoration: none;
 }
-#contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+#inicio footer, #inicio footer a, #contacto footer, #contacto footer a,#confirmacion_envio footer, #confirmacion_envio footer a{
     color: white;
     font-weight: 100;
 }
-#contacto footer .fa-github, #inicio footer .fa-github{
+#inicio footer .fa-github, #contacto footer .fa-github, #confirmacion_envio footer .fa-github{
     font-size: 30px;
     color: white;
 }
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+#inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in, #confirmacion_envio footer .fa-linkedin-in{
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -276,6 +280,11 @@ h5{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    #confirmacion_envio {
+        background-image: url("../imagenes/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat; 
+    }
     #inicio{
         background-image: none
     }
@@ -288,15 +297,15 @@ h5{
         border: 1px #E20000 solid;
         border-radius: 50px;
     }
-    #inicio footer, #inicio footer a, #contacto footer, #contacto footer a{
+    #inicio footer, #inicio footer a, #contacto footer, #contacto footer a,#confirmacion_envio footer, #confirmacion_envio footer a{
         color: #E20000;
         font-weight: 100;
     }
-    #inicio footer .fa-github, #contacto footer .fa-github{
+    #inicio footer .fa-github, #contacto footer .fa-github, #confirmacion_envio footer .fa-github{
         font-size: 30px;
         color: #E20000;
     }
-    #inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in{
+    #inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in, #confirmacion_envio footer .fa-linkedin-in{
         color: white;
         background-color: #E20000;
         font-size: 20px;

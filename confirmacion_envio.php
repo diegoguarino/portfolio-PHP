@@ -14,44 +14,23 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body id="contacto" class="d-flex flex-column h-100">
-
+<body id="confirmacion_envio" class="d-flex flex-column h-100">
 <header>
     <?php include_once("menu.php") ?>
 </header>
-
 <main class="container">
     <div class="row">
-        <div class="col-12 mt-3 mb-5">
-            <h1>Contacto</h1>
+        <div class="col-12 pt-1 pb-4 pt-sm-5">
+            <h1>Gracias por contactarte,</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-12 col-sm-6">
-            <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
-        </div>
-        <div class="col-12 col-sm-6">
-            <form action="" method="POST">
-                <div class="mb-3">
-                    <input type="text" name="txtNombre" id="txtNombre" class="form-control shadow" placeholder="Nombre" requiered>
-                </div>
-                <div class="mb-3">
-                    <input type="email" name="txtCorreo" id="txtCorreo" class="form-control shadow" placeholder="Correo" requiered>
-                </div>
-                <div class="mb-3">
-                    <input type="tel" name="txtTelefono" id="txtTelefono" class="form-control shadow" placeholder="Teléfono/Whatsapp" required>
-                </div>
-                <div class="mb-3">
-                    <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Escribe aquí tu mensaje" rows="5" required></textarea>
-                </div>
-                <div class="">
-                    <button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-4 shadow">ENVIAR</button>
-                </div>
-            </form>
+        <div class="col-12 pb-5">
+            <p>te estaré respondiendo a la brevedad.</p>
         </div>
     </div>
-</main>
 
+</main>
 <footer class="container mt-auto pb-sm-4">
     <div class="btn-whatsapp">
         <a href="https://api.whatsapp.com/send?phone=59891320262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
@@ -69,7 +48,7 @@
         </div>
     </div>
 </footer>
-
+    
 </body>
 
 </html>
