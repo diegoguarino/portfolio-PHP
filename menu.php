@@ -19,8 +19,7 @@
                 </li>
             </ul>
             <div class="d-inline">
-                <a class="btn btn-rojo" href="">Descargar mi CV <i class="fa-solid fa-download"></i>
-                </a>
+                <a class="btn btn-rojo" href="">Descargar mi CV <i class="fa-solid fa-download"></i></a>
             </div>
         </div>
     </div>
