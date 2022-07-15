@@ -226,7 +226,7 @@
                                     <div class="col-12 col-sm-10 p-3">
                                         <h3>Auxiliar Contable</h3>
                                         <h4>Universidad de Trabajo del Uruguay</h4>
-                                        <h5>2003 – 2005</h5>
+                                        <h5>2003 – 2006</h5>
                                         <p>http://www.utu.edu.uy/</p>
                                     </div>
                                 </div>
@@ -253,8 +253,8 @@
                                 </div>
                                 <div class="col-12 col-sm-10 p-3">
                                     <h3>Programación Web Full Stack</h3>
-                                    <h4>Instituto Mundo Nuevo</h4>
-                                    <h5>Expedición: dic 2000</h5>
+                                    <h4>DePC Suite</h4>
+                                    <h5>Expedición: octubre 2022</h5>
                                 </div>
                             </div>
                         </div>
