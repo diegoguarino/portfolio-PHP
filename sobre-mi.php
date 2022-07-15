@@ -331,7 +331,7 @@
 
                         <div class="row shadow">
                             <div class="col-4 p-0">
-                                <i class="fa-solid fa-message p-5"></i>
+                                <i class="fa-solid fa-message m-auto pt-5"></i>
                             </div>
                             <div class="col-8 p-5">
                                 <h2>IDIOMAS</h2>
@@ -344,7 +344,7 @@
                     <div class="col-12 col-sm-6 p-4">
                         <div class="row shadow">
                             <div class="col-4 p-0">
-                                <i class="fa-solid fa-star p-5"></i>
+                                <i class="fa-solid fa-star m-auto pt-5"></i>
                             </div>
                             <div class="col-8 p-5">
                                 <h2>HOBBIES</h2>
