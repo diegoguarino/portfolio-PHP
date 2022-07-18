@@ -1,3 +1,17 @@
+<?php
+if ($_POST) {
+    $usuario = $_POST["txtNombre"];
+    $clave = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $Mensaje = $_POST["txtMensaje"];
+    
+
+    if ($usuario != "" && $clave != "" && $telefono != "" && $Mensaje != "") {
+        header("Location: http://localhost/portfolio/confirmacion_envio.php");
+    }
+
+}
+?>
 <?php $pg = "contacto" ?>
 <!DOCTYPE html>
 <html lang="es" class="h-100">
@@ -31,7 +45,7 @@
             <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
         </div>
         <div class="col-12 col-sm-6">
-            <form action="" method="POST">
+            <form action="contacto.php" method="POST">
                 <div class="mb-3">
                     <input type="text" name="txtNombre" id="txtNombre" class="form-control shadow" placeholder="Nombre" requiered>
                 </div>
