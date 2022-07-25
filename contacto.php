@@ -1,6 +1,5 @@
 <?php
-
-   
+  
 
 if($_POST){
     $nombre = $_POST["txtNombre"];
@@ -8,8 +7,8 @@ if($_POST){
     $telefono = $_POST["txtTelefono"];
     $mensaje = $_POST["txtMensaje"];
 
-    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != "")
-    {
+    if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != ""){
+    
     // Varios destinatarios
     $para = "diegogl@live.com";
     $titulo = 'Recibiste un mensaje desde tu Web';
@@ -36,11 +35,9 @@ if($_POST){
 
 
     }
-    }
+}
 
 ?>
-
-
 
 <?php $pg = "contacto" ?>
 <!DOCTYPE html>
