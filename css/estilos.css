@@ -2,19 +2,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     }
-#contacto{
-    background-image: url("../imagenes/fondo-contacto.png");
-    background-size: cover;
-}
-#proyectos{
-    background-image: url("../imagenes/fondo-proyectos.png");
-    background-size: cover;
-}
-#inicio{
-    background-image: url("../imagenes/fondo-contacto.png");
-    background-size: cover;    
-}
-#confirmacion_envio{
+#contacto, #proyectos, #inicio, #confirmacion_envio{
     background-image: url("../imagenes/fondo-contacto.png");
     background-size: cover !important;
 }
@@ -270,20 +258,10 @@ h5{
 
 
 @media (max-width: 750px) {
-    #contacto {
+    #contacto, #proyectos, #confirmacion_envio {
         background-image: url("../imagenes/fondo-proyectos.png");
         background-size: contain;
         background-repeat: no-repeat;
-    }
-    #proyectos {
-        background-image: url("../imagenes/fondo-proyectos.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #confirmacion_envio {
-        background-image: url("../imagenes/fondo-proyectos.png");
-        background-size: contain;
-        background-repeat: no-repeat; 
     }
     #inicio{
         background-image: none
