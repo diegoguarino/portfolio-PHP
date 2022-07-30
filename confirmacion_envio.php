@@ -32,7 +32,7 @@
     </div>
 
 </main>
-<footer class="container mt-auto pb-sm-4">
+<footer class="container mt-auto pb-4">
     <div class="btn-whatsapp">
         <a href="https://api.whatsapp.com/send?phone=59891320262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
