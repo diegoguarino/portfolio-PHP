@@ -2,9 +2,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
     }
-#contacto, #proyectos, #inicio, #confirmacion_envio{
+#contacto, #inicio, #confirmacion_envio{
     background-image: url("../imagenes/fondo-contacto.png");
     background-size: cover !important;
+}
+#proyectos{
+    background-image: url("../imagenes/fondo-proyectos.png");
+    background-size: cover;    
 }
 h1{
     color: #E20000;
@@ -95,6 +99,7 @@ p{
     border-radius: 80px;
     margin: 0 8px;
 }
+
 #proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
     color: #E20000;
     font-weight: 100;
