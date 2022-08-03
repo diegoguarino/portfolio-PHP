@@ -57,59 +57,59 @@ if($_POST){
 
 <body id="contacto" class="d-flex flex-column h-100">
 
-<header>
-    <?php include_once("menu.php") ?>
-</header>
+    <header>
+        <?php include_once("menu.php") ?>
+    </header>
 
-<main class="container">
-    <div class="row">
-        <div class="col-12 mt-3 mb-5">
-            <h1>Contacto</h1>
+    <main class="container">
+        <div class="row">
+            <div class="col-12 mt-3 mb-5">
+                <h1>Contacto</h1>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-sm-6">
-            <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <form action="contacto.php" method="POST">
+                    <div class="mb-3">
+                        <input type="text" name="txtNombre" id="txtNombre" class="form-control shadow" placeholder="Nombre" requiered>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" name="txtCorreo" id="txtCorreo" class="form-control shadow" placeholder="Correo" requiered>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" class="form-control shadow" placeholder="Teléfono/Whatsapp" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Escribe aquí tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <div class="">
+                        <button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-4 shadow">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="col-12 col-sm-6">
-            <form action="contacto.php" method="POST">
-                <div class="mb-3">
-                    <input type="text" name="txtNombre" id="txtNombre" class="form-control shadow" placeholder="Nombre" requiered>
-                </div>
-                <div class="mb-3">
-                    <input type="email" name="txtCorreo" id="txtCorreo" class="form-control shadow" placeholder="Correo" requiered>
-                </div>
-                <div class="mb-3">
-                    <input type="tel" name="txtTelefono" id="txtTelefono" class="form-control shadow" placeholder="Teléfono/Whatsapp" required>
-                </div>
-                <div class="mb-3">
-                    <textarea name="txtMensaje" id="txtMensaje" class="form-control shadow" placeholder="Escribe aquí tu mensaje" rows="5" required></textarea>
-                </div>
-                <div class="">
-                    <button type="submit" name="btnEnviar" id="btnEnviar" class="btn px-4 shadow">ENVIAR</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</main>
+    </main>
 
-<footer class="container mt-auto pb-4">
-    <div class="btn-whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=59891320262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-    </div>
-    <div class="row">
-        <div class="col-12 col-sm-3 text-center text-sm-start">
-            <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+    <footer class="container mt-auto pb-4">
+        <div class="btn-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=59891320262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
-        <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
-            Sponsor <a href="https://depcsuite.com" target="_blank" title="DepcSuite">DePC Suite</a>
+        <div class="row">
+            <div class="col-12 col-sm-3 text-center text-sm-start">
+                <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
+                Sponsor <a href="https://depcsuite.com" target="_blank" title="DepcSuite">DePC Suite</a>
+            </div>
+            <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
+                <a href="mailto:diegogl@live.com">diegogl@live.com</a>
+            </div>
         </div>
-        <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
-            <a href="mailto:diegogl@live.com">diegogl@live.com</a>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 

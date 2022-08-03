@@ -16,39 +16,39 @@
 </head>
 
 <body id="confirmacion_envio" class="d-flex flex-column h-100">
-<header>
-    <?php include_once("menu.php") ?>
-</header>
-<main class="container">
-    <div class="row">
-        <div class="col-12 pt-1 pb-4 pt-sm-5">
-            <h1>Gracias por contactarte,</h1>
+    <header>
+        <?php include_once("menu.php") ?>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12 pt-1 pb-4 pt-sm-5">
+                <h1>Gracias por contactarte,</h1>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12 pb-5">
-            <p>te estaré respondiendo a la brevedad.</p>
+        <div class="row">
+            <div class="col-12 pb-5">
+                <p>te estaré respondiendo a la brevedad.</p>
+            </div>
         </div>
-    </div>
 
-</main>
-<footer class="container mt-auto pb-4">
-    <div class="btn-whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=59891320262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-    </div>
-    <div class="row">
-        <div class="col-12 col-sm-3 text-center text-sm-start">
-            <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+    </main>
+    <footer class="container mt-auto pb-4">
+        <div class="btn-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=59891320262" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
-        <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
-            Sponsor <a href="https://depcsuite.com" target="_blank" title="DepcSuite">DePC Suite</a>
+        <div class="row">
+            <div class="col-12 col-sm-3 text-center text-sm-start">
+                <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
+                Sponsor <a href="https://depcsuite.com" target="_blank" title="DepcSuite">DePC Suite</a>
+            </div>
+            <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
+                <a href="mailto:diegogl@live.com">diegogl@live.com</a>
+            </div>
         </div>
-        <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
-            <a href="mailto:diegogl@live.com">diegogl@live.com</a>
-        </div>
-    </div>
-</footer>
+    </footer>
     
 </body>
 
