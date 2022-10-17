@@ -31,7 +31,7 @@
                     <a href="contacto/php" class="btn btn-rojo">Enviar mensaje</a>
                 </div>
                 <div class="col-12 col-sm-3 offset-sm-2 mt-5">
-                    <img src="imagenes/diego-foto" class="foto-perfil img-fluid mx-auto">
+                    <img src="imagenes/diego-foto.png" class="foto-perfil img-fluid mx-auto">
                 </div>
             </div>
         </div>
