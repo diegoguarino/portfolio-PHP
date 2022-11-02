@@ -3,11 +3,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     }
 #contacto, #inicio, #confirmacion_envio{
-    background-image: url("../imagenes/fondo-contacto.png");
+    background-image: url("../imagenes/celdas.jpg");
     background-size: cover !important;
 }
 #proyectos{
-    background-image: url("../imagenes/fondo-proyectos.png");
+    background-image: url("../imagenes/celdas.jpg");
     background-size: cover;    
 }
 h1{
