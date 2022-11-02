@@ -45,7 +45,7 @@
                 Sponsor <a href="https://depcsuite.com" target="_blank" title="DepcSuite">DePC Suite</a>
             </div>
             <div class="col-12 col-sm-3 text-sm-start pt-2 p-sm-0">
-                <a href="mailto:diegogl@live.com">diegogl@live.com</a>
+                <a href="mailto:diegoguarino.dev@gmail.com">diegoguarino.dev@gmail.com</a>
             </div>
         </div>
     </footer>
